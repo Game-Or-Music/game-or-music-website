@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Game or Music</title>
+
+        <meta name="keywords" content="game or music, game developer, programer">
+        <meta name="author" content="Game or Music">
+        <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+
+        <h1>Game or music</h1>
+        <h5>by <i>Game or Music</i></h5>
+        <img src="/image/GOM.png" height="100" alt="my profile pic" title="Game or Music Profile Pic">
+        <hr>
+        <h3>Welcome to my website!</h3>
+        <hr>
+        <a href="about_me.html" target=_self title="Know more about me">About Me</a>
+        <br>
+        <a href="Free_time.html" target=_self title="Find out when I'm free">My time table</a>
+        <h4>Background Music: </h4>
+        <audio controls autoplay loop id="backgroundMusic">
+
+            <source src="/music/Silent Night.mp3">
+            This browser does not support html audio
+        </audio>
+        <script>
+            var audio = document.getElementById('backgroundMusic');
+            audio.volume = 0.01;
+        </script>
+    </body>
+</html>
